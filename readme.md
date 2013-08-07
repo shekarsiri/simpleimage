@@ -55,11 +55,11 @@ This class requires PHP 5.3 and PHP GD library.
 - Add 'SimpleImage' => 'Shekarsiri\Simpleimage\SimpleImage' to your 'aliases' array in the app\config\app.php file
 
 ###Laravel Usage
-<pre><code>$img = new SimpleImage('one.png'); 
+```php
+$img = new SimpleImage('one.png'); 
 $img->flip('x');
 $img->save('one-flipped.png');
-</code></pre>
-
+```
 
 Usage
 -----
