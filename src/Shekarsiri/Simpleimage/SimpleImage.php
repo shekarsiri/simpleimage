@@ -1,4 +1,4 @@
-<?php
+<?php namespace Shekarsiri\Simpleimage;
 /*
  * @package		SimpleImage class
  * @version		2.3
@@ -7,7 +7,7 @@
  * @license		This software is dual-licensed under the GNU General Public License and the MIT License
  * @copyright	A Beautiful Site, LLC.
  */
-namespace	abeautifulsite;
+//namespace	abeautifulsite;
 use			Exception;
 /**
  * Class SimpleImage
