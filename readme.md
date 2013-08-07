@@ -48,6 +48,19 @@ Requirements
 
 This class requires PHP 5.3 and PHP GD library.
 
+##Laravel Installation
+- Add "shekarsiri/simpleimage": "dev-master" to your /laravel/composer.json
+- Run the composer update
+- Add 'Shekarsiri\Simpleimage\SimpleimageServiceProvider' to your 'providers' array in the app\config\app.php file
+- Add 'SimpleImage' => 'Shekarsiri\Simpleimage\SimpleImage' to your 'aliases' array in the app\config\app.php file
+
+###Laravel Usage
+<pre><code>$img = new SimpleImage('one.png'); 
+$img->flip('x');
+$img->save('one-flipped.png');
+</code></pre>
+
+
 Usage
 -----
 
