@@ -1,8 +1,22 @@
 {
-    "name": "shekarsiri/simpleimage",
-    "description": "",
-    "license": "EUPL-1.1",
+    "name"        : "abeautifulsite/simpleimage",
+	"description" : "A PHP class that simplifies working with images",
+	"license"     : [
+		"GPL-2.0",
+		"MIT"
+	],
     "authors": [
+        {
+			"name"     : "Cory LaViska",
+			"homepage" : "http://www.abeautifulsite.net/",
+			"role"     : "Developer"
+		},
+		{
+			"name"     : "Nazar Mokrynskyi",
+			"email"    : "nazar@mokrynskyi.com",
+			"homepage" : "http://cleverstyle.org/",
+			"role"     : "Developer"
+		},
         {
             "name": "Shekar Siri",
             "email": "sshekarsiri@gmail.com"
